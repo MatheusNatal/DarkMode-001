@@ -4,6 +4,7 @@ function switchMode() {
 if (dark.style.display == 'block') {
 dark.style.display = 'none';
 light.style.display = 'block';
+light.style.transition = '1s';
 artigo.style.transition = '1s';
 artigo.style.backgroundColor = '#1b1a1a';
 artigo.style.color = 'white';
@@ -16,6 +17,7 @@ titulo.style.backgroundColor = '#1b1a1a';
 } else if (light.style.display == 'block') {
 light.style.display = 'none';
 dark.style.display = 'block';
+dark.style.transition = '1s';
 artigo.style.transition = '1s';
 artigo.style.backgroundColor = 'white';
 artigo.style.color = '#1b1a1a';
